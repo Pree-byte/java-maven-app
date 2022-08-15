@@ -12,16 +12,7 @@ pipeline
                         sh 'mvn package'
                   }
             }
-            
-            
-            stage("docker-permission"){
-                  steps{
-                        sh 'docker service start'
-                  }
-            }
-            
-            
-            
+                   
             stage("building-docker_img"){
                   steps{
                         echo "Building the docker-image"
