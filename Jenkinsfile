@@ -10,7 +10,7 @@ pipeline
                   steps{
                         echo "Building the application"
                         sh 'mvn package'
-                        sh 'service docker start'
+                        sh 'sudo systemctl start docker'
                   }
             }
             
