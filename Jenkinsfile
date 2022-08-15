@@ -12,7 +12,6 @@ pipeline
                         sh 'mvn package'
                   }
             }
-      }
             
             stage("building-docker_img"){
                   steps{
@@ -24,12 +23,5 @@ pipeline
                                      }  
                         }
             }
-      
-            stage("test"){
-                  steps{
-                        script{
-                              echo "Testing the application"
-                        }
-                  }
-            }
+        }       
 }
