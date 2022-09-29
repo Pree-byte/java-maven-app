@@ -9,8 +9,7 @@ pipeline
             stage("build-jar"){
                   steps{
                         script {
-                              echo "Hello World"
-                              echo "Hii everyone"
+                              echo "Y2j"
                               echo "Hello Mf"
                               echo "Now starting maven build"
                               echo "Building the application"
