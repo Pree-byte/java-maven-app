@@ -10,7 +10,6 @@ pipeline
                   steps{
                         script {
                               echo "Y2j"
-                              echo "Hello Mf"
                               echo "Now starting maven build"
                               echo "Building the application"
                               sh 'mvn package'
