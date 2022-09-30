@@ -33,12 +33,13 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
-                 
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>build-helper-maven-plugin</artifactId>
-                <version>3.3.0</version>
-            </plugin>         
+                <executions>
+      <!-- see next sections in the blog -->
+                </executions>
+            </plugin>       
          </plugins>
     </build>
 
